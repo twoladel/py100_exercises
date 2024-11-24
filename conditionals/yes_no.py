@@ -11,3 +11,6 @@ if random_number: # 1 is truthy and 0 is falsy so no need for '=='
     print('Yes!')
 else:
     print('No')
+
+# Part 2 exercise - ternary
+print('Yes!' if random_number else 'No')
